@@ -613,3 +613,9 @@ This proves:
 - ✔ SQL insert/select operations performed successfully
 
 --- 
+# 👨‍💻 Author  
+**Vinit Tippanawar**  
+AWS | Cloud | DevOps  
+
+*If this repo helped you, smash that ⭐ button!
+Your support = more awesome projects coming soon.*
