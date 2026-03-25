@@ -552,33 +552,35 @@ That means:
 
 🎉 EC2 successfully connected to RDS
 
-**📸MYSQL CONNECTION IMAGE**
-
-<img width="1920" height="1080" alt="MySQL Connection" src="ADD_YOUR_IMAGE_HERE" />
-
-
 # ⭐ STEP 17 — Perform Database Operations
 
 Now test database access using SQL commands.
 ```
 1️⃣ Show Databases
+```
 SHOW DATABASES;
-
+```
 2️⃣ Use the Database
+```
 USE ebdb;
-
+```
 3️⃣ Create a Table
+```
 CREATE TABLE students (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50)
 );
+```
 
 4️⃣ Insert a Record
+
+```
 INSERT INTO students (name) VALUES ('Vinit');
-
+```
 5️⃣ Read Data
+```
 SELECT * FROM students;
-
+```
 Expected Output
 +----+-------+
 | id | name  |
@@ -592,8 +594,9 @@ This proves:
 
 **📸SQL OUTPUT IMAGE**
 
-<img width="1920" height="1080" alt="SQL Output" src="ADD_YOUR_IMAGE_HERE" />
+<img width="1835" height="781" alt="Image" src="https://github.com/user-attachments/assets/ef54e0be-a71a-4e95-8c81-93af0468d4b3" />
 
+---
 🎉 Project Working Successfully
 
 ✔ Web application deployed on Elastic Beanstalk
@@ -604,14 +607,4 @@ This proves:
 ✔ EC2 connected to RDS successfully
 ✔ SQL insert/select operations performed successfully
 
-🔐 Security Considerations
-
-This project follows secure AWS design practices:
-
-RDS is not publicly accessible
-Database access is restricted using Security Groups
-Only these resources can access the DB:
-Elastic Beanstalk EC2
-Manual EC2
-SSH access to manual EC2 is restricted to My IP only
-No open database access to the public internet
+--- 
