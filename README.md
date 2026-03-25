@@ -555,16 +555,20 @@ That means:
 # ⭐ STEP 17 — Perform Database Operations
 
 Now test database access using SQL commands.
-```
+
 1️⃣ Show Databases
+
 ```
 SHOW DATABASES;
 ```
+
 2️⃣ Use the Database
+
 ```
 USE ebdb;
 ```
 3️⃣ Create a Table
+
 ```
 CREATE TABLE students (
   id INT PRIMARY KEY AUTO_INCREMENT,
@@ -582,6 +586,7 @@ INSERT INTO students (name) VALUES ('Vinit');
 SELECT * FROM students;
 ```
 Expected Output
+```
 +----+-------+
 | id | name  |
 +----+-------+
@@ -599,12 +604,12 @@ This proves:
 ---
 🎉 Project Working Successfully
 
-✔ Web application deployed on Elastic Beanstalk
-✔ RDS MySQL created via Elastic Beanstalk
-✔ RDS launched in same VPC
-✔ Manual EC2 launched successfully
-✔ Security groups configured securely
-✔ EC2 connected to RDS successfully
-✔ SQL insert/select operations performed successfully
+- ✔ Web application deployed on Elastic Beanstalk
+- ✔ RDS MySQL created via Elastic Beanstalk
+- ✔ RDS launched in same VPC
+- ✔ Manual EC2 launched successfully
+- ✔ Security groups configured securely
+- ✔ EC2 connected to RDS successfully
+- ✔ SQL insert/select operations performed successfully
 
 --- 
